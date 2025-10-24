@@ -1,0 +1,1377 @@
+[
+	[
+		"Map",
+		-2009640980,
+		0,
+		"",
+		{
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"Scene",
+		2128948584,
+		-2009640980,
+		"Ui",
+		{
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"Actor",
+		643055411,
+		2128948584,
+		"Tree",
+		{
+			"enabled": true,
+			"name": "Tree",
+			"static": false
+		},
+		[
+		],
+		{
+			"Flags": 3
+		}
+	],
+	[
+		"Transform",
+		-677278889,
+		643055411,
+		"Transform",
+		{
+			"enabled": true,
+			"position": {
+				"Vector3": [2.000000,-0.100000,0.000000]
+			},
+			"quaternion": {
+				"Quaternion": [0.000000,0.000000,0.000000,1.000000]
+			},
+			"rotation": {
+				"Vector3": [0.000000,0.000000,0.000000]
+			},
+			"scale": {
+				"Vector3": [1.000000,1.000000,1.000000]
+			}
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"SpriteRender",
+		758923030,
+		643055411,
+		"SpriteRender",
+		{
+			"color": {
+				"Vector4": [1.000000,1.000000,1.000000,1.000000]
+			},
+			"drawMode": 0,
+			"enabled": true,
+			"item": "Tree",
+			"layer": 1,
+			"size": {
+				"Vector2": [2.560000,2.400000]
+			}
+		},
+		[
+		],
+		{
+			"material": "{00000000-0401-0000-0000-000000000000}",
+			"sprite": "{2e17daec-20bf-45f9-a69f-c43295be2675}"
+		}
+	],
+	[
+		"Actor",
+		-1681762879,
+		2128948584,
+		"Bush",
+		{
+			"enabled": true,
+			"name": "Bush",
+			"static": false
+		},
+		[
+		],
+		{
+			"Flags": 3
+		}
+	],
+	[
+		"Transform",
+		-1781372757,
+		-1681762879,
+		"Transform",
+		{
+			"enabled": true,
+			"position": {
+				"Vector3": [-2.000000,-0.100000,0.000000]
+			},
+			"quaternion": {
+				"Quaternion": [0.000000,0.000000,0.000000,1.000000]
+			},
+			"rotation": {
+				"Vector3": [0.000000,0.000000,0.000000]
+			},
+			"scale": {
+				"Vector3": [0.500000,0.500000,1.000000]
+			}
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"SpriteRender",
+		1865620781,
+		-1681762879,
+		"SpriteRender",
+		{
+			"color": {
+				"Vector4": [0.000000,0.666667,0.498039,1.000000]
+			},
+			"drawMode": 0,
+			"enabled": true,
+			"item": "Cloud",
+			"layer": 1,
+			"size": {
+				"Vector2": [3.120000,1.230000]
+			}
+		},
+		[
+		],
+		{
+			"material": "{00000000-0401-0000-0000-000000000000}",
+			"sprite": "{2e17daec-20bf-45f9-a69f-c43295be2675}"
+		}
+	],
+	[
+		"Actor",
+		-1238088472,
+		2128948584,
+		"Ground",
+		{
+			"enabled": true,
+			"name": "Ground",
+			"static": false
+		},
+		[
+		],
+		{
+			"Flags": 3
+		}
+	],
+	[
+		"Transform",
+		-1709114575,
+		-1238088472,
+		"Transform",
+		{
+			"enabled": true,
+			"position": {
+				"Vector3": [0.000000,-0.500000,0.000000]
+			},
+			"quaternion": {
+				"Quaternion": [0.000000,0.000000,0.000000,1.000000]
+			},
+			"rotation": {
+				"Vector3": [0.000000,0.000000,0.000000]
+			},
+			"scale": {
+				"Vector3": [0.500000,0.500000,1.000000]
+			}
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"SpriteRender",
+		2127448839,
+		-1238088472,
+		"SpriteRender",
+		{
+			"color": {
+				"Vector4": [1.000000,1.000000,1.000000,1.000000]
+			},
+			"drawMode": 2,
+			"enabled": true,
+			"item": "Ground",
+			"layer": 3,
+			"size": {
+				"Vector2": [80.000000,2.200000]
+			}
+		},
+		[
+		],
+		{
+			"material": "{00000000-0401-0000-0000-000000000000}",
+			"sprite": "{2e17daec-20bf-45f9-a69f-c43295be2675}"
+		}
+	],
+	[
+		"BoxCollider",
+		-1242843015,
+		-1238088472,
+		"BoxCollider",
+		{
+			"center": {
+				"Vector3": [0.000000,0.000000,0.000000]
+			},
+			"enabled": true,
+			"size": {
+				"Vector3": [40.000000,1.100000,2.000000]
+			},
+			"trigger": false
+		},
+		[
+		],
+		{
+			"material": ""
+		}
+	],
+	[
+		"Actor",
+		-1739553184,
+		2128948584,
+		"Camera",
+		{
+			"enabled": true,
+			"name": "Camera",
+			"static": false
+		},
+		[
+		],
+		{
+			"Flags": 3
+		}
+	],
+	[
+		"Transform",
+		-330917015,
+		-1739553184,
+		"Transform",
+		{
+			"enabled": true,
+			"position": {
+				"Vector3": [0.000000,4.000000,10.000000]
+			},
+			"quaternion": {
+				"Quaternion": [0.000000,0.000000,0.000000,1.000000]
+			},
+			"rotation": {
+				"Vector3": [0.000000,0.000000,0.000000]
+			},
+			"scale": {
+				"Vector3": [1.000000,1.000000,1.000000]
+			}
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"Camera",
+		1540495667,
+		-1739553184,
+		"Camera",
+		{
+			"backgroundColor": {
+				"Vector4": [0.000000,0.000000,0.000000,1.000000]
+			},
+			"enabled": true,
+			"far": 1000.000000,
+			"focalDistance": 1.000000,
+			"fov": 45.000000,
+			"near": 0.100000,
+			"orthographic": true,
+			"ratio": 2.186486,
+			"size": 10.000000
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"GameController",
+		-1032378899,
+		-1739553184,
+		"GameController",
+		{
+			"enabled": true,
+			"script": "GameController"
+		},
+		[
+		],
+		{
+			"bird": 0,
+			"panel": 1084657641,
+			"startBtn": -954190629
+		}
+	],
+	[
+		"Actor",
+		-1622172694,
+		2128948584,
+		"Layer0",
+		{
+			"enabled": true,
+			"name": "Layer0",
+			"static": false
+		},
+		[
+		],
+		{
+			"Flags": 3
+		}
+	],
+	[
+		"Transform",
+		1788759220,
+		-1622172694,
+		"Transform",
+		{
+			"enabled": true,
+			"position": {
+				"Vector3": [0.000000,0.000000,0.000000]
+			},
+			"quaternion": {
+				"Quaternion": [0.000000,0.000000,0.000000,1.000000]
+			},
+			"rotation": {
+				"Vector3": [0.000000,0.000000,0.000000]
+			},
+			"scale": {
+				"Vector3": [1.000000,1.000000,1.000000]
+			}
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"Actor",
+		262514788,
+		-1622172694,
+		"Sky",
+		{
+			"enabled": true,
+			"name": "Sky",
+			"static": false
+		},
+		[
+		],
+		{
+			"Flags": 3
+		}
+	],
+	[
+		"Transform",
+		1808891695,
+		262514788,
+		"Transform",
+		{
+			"enabled": true,
+			"position": {
+				"Vector3": [0.000000,4.500000,-1.000000]
+			},
+			"quaternion": {
+				"Quaternion": [0.000000,0.000000,0.000000,1.000000]
+			},
+			"rotation": {
+				"Vector3": [0.000000,0.000000,0.000000]
+			},
+			"scale": {
+				"Vector3": [40.000000,9.000000,1.000000]
+			}
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"MeshRender",
+		-1016248722,
+		262514788,
+		"MeshRender",
+		{
+			"enabled": true
+		},
+		[
+		],
+		{
+			"materials": [
+				"{d78b29d3-947f-47c0-9d52-d21c467666d3}"
+			],
+			"mesh": "{e394db15-d7a2-481c-8926-eb3bbcf0d21a}"
+		}
+	],
+	[
+		"Actor",
+		1283141929,
+		-1622172694,
+		"Cloud1",
+		{
+			"enabled": true,
+			"name": "Cloud1",
+			"static": false
+		},
+		[
+		],
+		{
+			"Flags": 3
+		}
+	],
+	[
+		"Transform",
+		-240075448,
+		1283141929,
+		"Transform",
+		{
+			"enabled": true,
+			"position": {
+				"Vector3": [-2.598900,4.935000,0.000000]
+			},
+			"quaternion": {
+				"Quaternion": [0.000000,0.000000,0.000000,1.000000]
+			},
+			"rotation": {
+				"Vector3": [0.000000,0.000000,0.000000]
+			},
+			"scale": {
+				"Vector3": [1.000000,1.000000,1.000000]
+			}
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"SpriteRender",
+		806011564,
+		1283141929,
+		"SpriteRender",
+		{
+			"color": {
+				"Vector4": [1.000000,1.000000,1.000000,1.000000]
+			},
+			"drawMode": 0,
+			"enabled": true,
+			"item": "Cloud",
+			"layer": 0,
+			"size": {
+				"Vector2": [3.120000,1.230000]
+			}
+		},
+		[
+		],
+		{
+			"material": "{00000000-0401-0000-0000-000000000000}",
+			"sprite": "{2e17daec-20bf-45f9-a69f-c43295be2675}"
+		}
+	],
+	[
+		"Actor",
+		-1293543360,
+		-1622172694,
+		"Cloud2",
+		{
+			"enabled": true,
+			"name": "Cloud2",
+			"static": false
+		},
+		[
+		],
+		{
+			"Flags": 3
+		}
+	],
+	[
+		"Transform",
+		1555715859,
+		-1293543360,
+		"Transform",
+		{
+			"enabled": true,
+			"position": {
+				"Vector3": [3.639700,3.481600,0.000000]
+			},
+			"quaternion": {
+				"Quaternion": [0.000000,0.000000,0.000000,1.000000]
+			},
+			"rotation": {
+				"Vector3": [0.000000,0.000000,0.000000]
+			},
+			"scale": {
+				"Vector3": [0.750000,0.750000,1.000000]
+			}
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"SpriteRender",
+		1532764300,
+		-1293543360,
+		"SpriteRender",
+		{
+			"color": {
+				"Vector4": [1.000000,1.000000,1.000000,1.000000]
+			},
+			"drawMode": 0,
+			"enabled": true,
+			"item": "Cloud",
+			"layer": 0,
+			"size": {
+				"Vector2": [3.120000,1.230000]
+			}
+		},
+		[
+		],
+		{
+			"material": "{00000000-0401-0000-0000-000000000000}",
+			"sprite": "{2e17daec-20bf-45f9-a69f-c43295be2675}"
+		}
+	],
+	[
+		"Actor",
+		-1594008795,
+		-1622172694,
+		"Cloud3",
+		{
+			"enabled": true,
+			"name": "Cloud3",
+			"static": false
+		},
+		[
+		],
+		{
+			"Flags": 3
+		}
+	],
+	[
+		"Transform",
+		232419731,
+		-1594008795,
+		"Transform",
+		{
+			"enabled": true,
+			"position": {
+				"Vector3": [-7.350600,3.030600,0.000000]
+			},
+			"quaternion": {
+				"Quaternion": [0.000000,0.000000,0.000000,1.000000]
+			},
+			"rotation": {
+				"Vector3": [0.000000,0.000000,0.000000]
+			},
+			"scale": {
+				"Vector3": [0.600000,0.600000,1.000000]
+			}
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"SpriteRender",
+		-2116109257,
+		-1594008795,
+		"SpriteRender",
+		{
+			"color": {
+				"Vector4": [1.000000,1.000000,1.000000,1.000000]
+			},
+			"drawMode": 0,
+			"enabled": true,
+			"item": "Cloud",
+			"layer": 0,
+			"size": {
+				"Vector2": [3.120000,1.230000]
+			}
+		},
+		[
+		],
+		{
+			"material": "{00000000-0401-0000-0000-000000000000}",
+			"sprite": "{2e17daec-20bf-45f9-a69f-c43295be2675}"
+		}
+	],
+	[
+		"Actor",
+		718789398,
+		-1622172694,
+		"Cloud4",
+		{
+			"enabled": true,
+			"name": "Cloud4",
+			"static": false
+		},
+		[
+		],
+		{
+			"Flags": 3
+		}
+	],
+	[
+		"Transform",
+		-2081922883,
+		718789398,
+		"Transform",
+		{
+			"enabled": true,
+			"position": {
+				"Vector3": [5.721700,5.952000,0.000000]
+			},
+			"quaternion": {
+				"Quaternion": [0.000000,0.000000,0.000000,1.000000]
+			},
+			"rotation": {
+				"Vector3": [0.000000,0.000000,0.000000]
+			},
+			"scale": {
+				"Vector3": [1.000000,1.000000,1.000000]
+			}
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"SpriteRender",
+		-1315805940,
+		718789398,
+		"SpriteRender",
+		{
+			"color": {
+				"Vector4": [1.000000,1.000000,1.000000,1.000000]
+			},
+			"drawMode": 0,
+			"enabled": true,
+			"item": "Cloud",
+			"layer": 0,
+			"size": {
+				"Vector2": [3.120000,1.230000]
+			}
+		},
+		[
+		],
+		{
+			"material": "{00000000-0401-0000-0000-000000000000}",
+			"sprite": "{2e17daec-20bf-45f9-a69f-c43295be2675}"
+		}
+	],
+	[
+		"Actor",
+		-243434159,
+		-1622172694,
+		"Cloud6",
+		{
+			"enabled": true,
+			"name": "Cloud6",
+			"static": false
+		},
+		[
+		],
+		{
+			"Flags": 3
+		}
+	],
+	[
+		"Transform",
+		-264453568,
+		-243434159,
+		"Transform",
+		{
+			"enabled": true,
+			"position": {
+				"Vector3": [-8.164100,7.827800,0.000000]
+			},
+			"quaternion": {
+				"Quaternion": [0.000000,0.000000,0.000000,1.000000]
+			},
+			"rotation": {
+				"Vector3": [0.000000,0.000000,0.000000]
+			},
+			"scale": {
+				"Vector3": [1.500000,1.500000,1.000000]
+			}
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"SpriteRender",
+		2017714753,
+		-243434159,
+		"SpriteRender",
+		{
+			"color": {
+				"Vector4": [1.000000,1.000000,1.000000,1.000000]
+			},
+			"drawMode": 0,
+			"enabled": true,
+			"item": "Cloud",
+			"layer": 0,
+			"size": {
+				"Vector2": [3.120000,1.230000]
+			}
+		},
+		[
+		],
+		{
+			"material": "{00000000-0401-0000-0000-000000000000}",
+			"sprite": "{2e17daec-20bf-45f9-a69f-c43295be2675}"
+		}
+	],
+	[
+		"Actor",
+		1028510708,
+		2128948584,
+		"Ui",
+		{
+			"enabled": true,
+			"name": "Ui",
+			"static": false
+		},
+		[
+		],
+		{
+			"Flags": 3
+		}
+	],
+	[
+		"RectTransform",
+		558774390,
+		1028510708,
+		"RectTransform",
+		{
+			"boder": {
+				"Vector4": [0.000000,0.000000,0.000000,0.000000]
+			},
+			"enabled": true,
+			"margin": {
+				"Vector4": [0.000000,0.000000,0.000000,0.000000]
+			},
+			"maxAnchors": {
+				"Vector2": [0.500000,0.500000]
+			},
+			"minAnchors": {
+				"Vector2": [0.500000,0.500000]
+			},
+			"mouseTracking": true,
+			"offsetMax": {
+				"Vector2": [1535.000000,623.000000]
+			},
+			"offsetMin": {
+				"Vector2": [0.000000,0.000000]
+			},
+			"padding": {
+				"Vector4": [0.000000,0.000000,0.000000,0.000000]
+			},
+			"pivot": {
+				"Vector2": [0.000000,0.000000]
+			},
+			"position": {
+				"Vector3": [0.000000,0.000000,0.000000]
+			},
+			"quaternion": {
+				"Quaternion": [0.000000,0.000000,0.000000,1.000000]
+			},
+			"rotation": {
+				"Vector3": [0.000000,0.000000,0.000000]
+			},
+			"scale": {
+				"Vector3": [1.000000,1.000000,1.000000]
+			},
+			"size": {
+				"Vector2": [1618.000000,666.000000]
+			}
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"Widget",
+		198412805,
+		1028510708,
+		"Widget",
+		{
+			"enabled": true
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"Actor",
+		1084657641,
+		1028510708,
+		"Panel",
+		{
+			"enabled": true,
+			"name": "Panel",
+			"static": false
+		},
+		[
+			[
+				1084657641,
+				"1destroyed()",
+				-1032378899,
+				"2onReferenceDestroyed()"
+			]
+		],
+		{
+			"Flags": 3
+		}
+	],
+	[
+		"RectTransform",
+		1831292690,
+		1084657641,
+		"RectTransform",
+		{
+			"boder": {
+				"Vector4": [0.000000,0.000000,0.000000,0.000000]
+			},
+			"enabled": true,
+			"margin": {
+				"Vector4": [0.000000,0.000000,0.000000,0.000000]
+			},
+			"maxAnchors": {
+				"Vector2": [0.500000,0.500000]
+			},
+			"minAnchors": {
+				"Vector2": [0.500000,0.500000]
+			},
+			"mouseTracking": true,
+			"offsetMax": {
+				"Vector2": [667.500000,211.500000]
+			},
+			"offsetMin": {
+				"Vector2": [667.500000,211.500000]
+			},
+			"padding": {
+				"Vector4": [0.000000,0.000000,0.000000,0.000000]
+			},
+			"pivot": {
+				"Vector2": [0.500000,0.500000]
+			},
+			"position": {
+				"Vector3": [0.000000,0.000000,0.000000]
+			},
+			"quaternion": {
+				"Quaternion": [0.000000,0.000000,0.000000,1.000000]
+			},
+			"rotation": {
+				"Vector3": [0.000000,0.000000,0.000000]
+			},
+			"scale": {
+				"Vector3": [1.000000,1.000000,1.000000]
+			},
+			"size": {
+				"Vector2": [200.000000,200.000000]
+			}
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"Image",
+		-864546094,
+		1084657641,
+		"Image",
+		{
+			"color": {
+				"Vector4": [1.000000,1.000000,1.000000,1.000000]
+			},
+			"drawMode": 1,
+			"enabled": true,
+			"item": "Rectangle"
+		},
+		[
+		],
+		{
+			"material": "{00000000-0401-0000-0000-000000000000}",
+			"sprite": "{00000000-0202-0000-0000-000000000000}"
+		}
+	],
+	[
+		"Actor",
+		1895340509,
+		1084657641,
+		"Button",
+		{
+			"enabled": true,
+			"name": "Button",
+			"static": false
+		},
+		[
+		],
+		{
+			"Flags": 3
+		}
+	],
+	[
+		"RectTransform",
+		499146254,
+		1895340509,
+		"RectTransform",
+		{
+			"boder": {
+				"Vector4": [0.000000,0.000000,0.000000,0.000000]
+			},
+			"enabled": true,
+			"margin": {
+				"Vector4": [0.000000,0.000000,0.000000,0.000000]
+			},
+			"maxAnchors": {
+				"Vector2": [0.500000,0.500000]
+			},
+			"minAnchors": {
+				"Vector2": [0.500000,0.500000]
+			},
+			"mouseTracking": true,
+			"offsetMax": {
+				"Vector2": [50.000000,85.000000]
+			},
+			"offsetMin": {
+				"Vector2": [50.000000,85.000000]
+			},
+			"padding": {
+				"Vector4": [0.000000,0.000000,0.000000,0.000000]
+			},
+			"pivot": {
+				"Vector2": [0.500000,0.500000]
+			},
+			"position": {
+				"Vector3": [0.000000,-70.000000,0.000000]
+			},
+			"quaternion": {
+				"Quaternion": [0.000000,0.000000,0.000000,1.000000]
+			},
+			"rotation": {
+				"Vector3": [0.000000,0.000000,0.000000]
+			},
+			"scale": {
+				"Vector3": [1.000000,1.000000,1.000000]
+			},
+			"size": {
+				"Vector2": [100.000000,30.000000]
+			}
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"Button",
+		-954190629,
+		1895340509,
+		"Button",
+		{
+			"checkable": false,
+			"checked": false,
+			"color": {
+				"Vector4": [0.500000,0.500000,0.500000,1.000000]
+			},
+			"enabled": true,
+			"exclusive": false,
+			"text": "Start"
+		},
+		[
+			[
+				-954190629,
+				"1destroyed()",
+				-1032378899,
+				"2onReferenceDestroyed()"
+			]
+		],
+		{
+			"background": -2110072568,
+			"icon": 1205455417,
+			"label": 1920175587
+		}
+	],
+	[
+		"Actor",
+		-979360175,
+		1895340509,
+		"background",
+		{
+			"enabled": true,
+			"name": "background",
+			"static": false
+		},
+		[
+		],
+		{
+			"Flags": 3
+		}
+	],
+	[
+		"RectTransform",
+		-601665336,
+		-979360175,
+		"RectTransform",
+		{
+			"boder": {
+				"Vector4": [0.000000,0.000000,0.000000,0.000000]
+			},
+			"enabled": true,
+			"margin": {
+				"Vector4": [0.000000,0.000000,0.000000,0.000000]
+			},
+			"maxAnchors": {
+				"Vector2": [1.000000,1.000000]
+			},
+			"minAnchors": {
+				"Vector2": [0.000000,0.000000]
+			},
+			"mouseTracking": true,
+			"padding": {
+				"Vector4": [0.000000,0.000000,0.000000,0.000000]
+			},
+			"pivot": {
+				"Vector2": [0.500000,0.500000]
+			},
+			"position": {
+				"Vector3": [0.000000,0.000000,0.000000]
+			},
+			"quaternion": {
+				"Quaternion": [0.000000,0.000000,0.000000,1.000000]
+			},
+			"rotation": {
+				"Vector3": [0.000000,0.000000,0.000000]
+			},
+			"scale": {
+				"Vector3": [1.000000,1.000000,1.000000]
+			},
+			"size": {
+				"Vector2": [100.000000,30.000000]
+			}
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"Frame",
+		-2110072568,
+		-979360175,
+		"Frame",
+		{
+			"bottomColor": {
+				"Vector4": [0.800000,0.800000,0.800000,0.800000]
+			},
+			"color": {
+				"Vector4": [0.500000,0.500000,0.500000,1.000000]
+			},
+			"corners": {
+				"Vector4": [4.000000,4.000000,4.000000,4.000000]
+			},
+			"enabled": true,
+			"leftColor": {
+				"Vector4": [0.800000,0.800000,0.800000,0.800000]
+			},
+			"rightColor": {
+				"Vector4": [0.800000,0.800000,0.800000,0.800000]
+			},
+			"topColor": {
+				"Vector4": [0.800000,0.800000,0.800000,0.800000]
+			}
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"Actor",
+		449019639,
+		1895340509,
+		"label",
+		{
+			"enabled": true,
+			"name": "label",
+			"static": false
+		},
+		[
+		],
+		{
+			"Flags": 3
+		}
+	],
+	[
+		"RectTransform",
+		-648789229,
+		449019639,
+		"RectTransform",
+		{
+			"boder": {
+				"Vector4": [0.000000,0.000000,0.000000,0.000000]
+			},
+			"enabled": true,
+			"margin": {
+				"Vector4": [0.000000,0.000000,0.000000,0.000000]
+			},
+			"maxAnchors": {
+				"Vector2": [1.000000,1.000000]
+			},
+			"minAnchors": {
+				"Vector2": [0.000000,0.000000]
+			},
+			"mouseTracking": true,
+			"padding": {
+				"Vector4": [0.000000,0.000000,0.000000,0.000000]
+			},
+			"pivot": {
+				"Vector2": [0.500000,0.500000]
+			},
+			"position": {
+				"Vector3": [0.000000,0.000000,0.000000]
+			},
+			"quaternion": {
+				"Quaternion": [0.000000,0.000000,0.000000,1.000000]
+			},
+			"rotation": {
+				"Vector3": [0.000000,0.000000,0.000000]
+			},
+			"scale": {
+				"Vector3": [1.000000,1.000000,1.000000]
+			},
+			"size": {
+				"Vector2": [100.000000,30.000000]
+			}
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"Label",
+		1920175587,
+		449019639,
+		"Label",
+		{
+			"alignment": 34,
+			"color": {
+				"Vector4": [1.000000,1.000000,1.000000,1.000000]
+			},
+			"enabled": true,
+			"fontSize": 14,
+			"kerning": true,
+			"text": "Start",
+			"wordWrap": false
+		},
+		[
+		],
+		{
+			"Font": "{00000000-0601-0000-0000-000000000000}",
+			"font": "{00000000-0601-0000-0000-000000000000}"
+		}
+	],
+	[
+		"Actor",
+		-1004437480,
+		1895340509,
+		"icon",
+		{
+			"enabled": true,
+			"name": "icon",
+			"static": false
+		},
+		[
+		],
+		{
+			"Flags": 3
+		}
+	],
+	[
+		"RectTransform",
+		1724455728,
+		-1004437480,
+		"RectTransform",
+		{
+			"boder": {
+				"Vector4": [0.000000,0.000000,0.000000,0.000000]
+			},
+			"enabled": true,
+			"margin": {
+				"Vector4": [0.000000,0.000000,0.000000,0.000000]
+			},
+			"maxAnchors": {
+				"Vector2": [0.500000,0.500000]
+			},
+			"minAnchors": {
+				"Vector2": [0.500000,0.500000]
+			},
+			"mouseTracking": true,
+			"padding": {
+				"Vector4": [0.000000,0.000000,0.000000,0.000000]
+			},
+			"pivot": {
+				"Vector2": [0.500000,0.500000]
+			},
+			"position": {
+				"Vector3": [0.000000,0.000000,0.000000]
+			},
+			"quaternion": {
+				"Quaternion": [0.000000,0.000000,0.000000,1.000000]
+			},
+			"rotation": {
+				"Vector3": [0.000000,0.000000,0.000000]
+			},
+			"scale": {
+				"Vector3": [1.000000,1.000000,1.000000]
+			},
+			"size": {
+				"Vector2": [16.000000,16.000000]
+			}
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"Image",
+		1205455417,
+		-1004437480,
+		"Image",
+		{
+			"color": {
+				"Vector4": [1.000000,1.000000,1.000000,1.000000]
+			},
+			"drawMode": 0,
+			"enabled": false,
+			"item": ""
+		},
+		[
+		],
+		{
+			"material": "{00000000-0401-0000-0000-000000000000}",
+			"sprite": ""
+		}
+	],
+	[
+		"Actor",
+		-523368149,
+		1084657641,
+		"Label",
+		{
+			"enabled": true,
+			"name": "Label",
+			"static": false
+		},
+		[
+		],
+		{
+			"Flags": 3
+		}
+	],
+	[
+		"RectTransform",
+		-506319622,
+		-523368149,
+		"RectTransform",
+		{
+			"boder": {
+				"Vector4": [0.000000,0.000000,0.000000,0.000000]
+			},
+			"enabled": true,
+			"margin": {
+				"Vector4": [0.000000,0.000000,0.000000,0.000000]
+			},
+			"maxAnchors": {
+				"Vector2": [0.500000,0.500000]
+			},
+			"minAnchors": {
+				"Vector2": [0.500000,0.500000]
+			},
+			"mouseTracking": true,
+			"offsetMax": {
+				"Vector2": [10.000000,75.000000]
+			},
+			"offsetMin": {
+				"Vector2": [10.000000,75.000000]
+			},
+			"padding": {
+				"Vector4": [0.000000,0.000000,0.000000,0.000000]
+			},
+			"pivot": {
+				"Vector2": [0.500000,0.500000]
+			},
+			"position": {
+				"Vector3": [0.000000,50.000000,0.000000]
+			},
+			"quaternion": {
+				"Quaternion": [0.000000,0.000000,0.000000,1.000000]
+			},
+			"rotation": {
+				"Vector3": [0.000000,0.000000,0.000000]
+			},
+			"scale": {
+				"Vector3": [1.000000,1.000000,1.000000]
+			},
+			"size": {
+				"Vector2": [180.000000,50.000000]
+			}
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"Label",
+		-1546808576,
+		-523368149,
+		"Label",
+		{
+			"alignment": 34,
+			"color": {
+				"Vector4": [0.200000,0.200000,0.200000,1.000000]
+			},
+			"enabled": true,
+			"fontSize": 48,
+			"kerning": true,
+			"text": "Flappy",
+			"wordWrap": false
+		},
+		[
+		],
+		{
+			"Font": "{00000000-0601-0000-0000-000000000000}",
+			"font": "{00000000-0601-0000-0000-000000000000}"
+		}
+	]
+]

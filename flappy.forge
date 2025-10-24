@@ -1,0 +1,14 @@
+{
+	"companyName": "Evgeniy Prikazchikov",
+	"firstMap": "{3614596a-e212-4252-b824-bee26c5cb519}",
+	"modules": [
+		"RenderGL"
+	],
+	"platforms": [
+		"desktop"
+	],
+	"projectId": "{368c7145-cc1a-4886-8e45-9713abd4d5ea}",
+	"projectName": "flappy",
+	"projectSdk": "2025.3",
+	"projectVersion": "1.0"
+}

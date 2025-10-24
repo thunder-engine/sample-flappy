@@ -1,0 +1,65 @@
+<document version="14">
+    <graph>
+        <nodes>
+            <node y="0" type="" index="0" x="0">
+                <value type="int" name="blendAlphaOperation">0</value>
+                <value type="int" name="blendColorOperation">0</value>
+                <value type="int" name="blendDestinationAlpha">1</value>
+                <value type="int" name="blendDestinationColor">1</value>
+                <value type="int" name="blendSourceAlpha">0</value>
+                <value type="int" name="blendSourceColor">0</value>
+                <value type="int" name="depthCompare">1</value>
+                <value type="bool" name="depthTest">true</value>
+                <value type="bool" name="depthWrite">true</value>
+                <value type="int" name="lightingModel">0</value>
+                <value type="int" name="materialType">0</value>
+                <value type="int" name="stencilCompareBack">7</value>
+                <value type="int" name="stencilCompareFront">7</value>
+                <value type="int" name="stencilFailBack">0</value>
+                <value type="int" name="stencilFailFront">0</value>
+                <value type="int" name="stencilPassBack">0</value>
+                <value type="int" name="stencilPassFront">0</value>
+                <value type="int" name="stencilReadMask">1</value>
+                <value type="int" name="stencilReference">0</value>
+                <value type="bool" name="stencilTest">false</value>
+                <value type="int" name="stencilWriteMask">1</value>
+                <value type="int" name="stencilZFailBack">0</value>
+                <value type="int" name="stencilZFailFront">0</value>
+                <value type="bool" name="twoSided">false</value>
+                <value type="bool" name="useWithParticles">true</value>
+                <value type="bool" name="useWithSkinned">true</value>
+                <value type="bool" name="wireFrame">false</value>
+            </node>
+            <node y="21" type="Mix" index="1" x="-249"/>
+            <node y="130" type="TexCoord" index="2" x="-649">
+                <value type="int" name="Index">0</value>
+            </node>
+            <node y="125" type="Mask" index="3" x="-449">
+                <value type="bool" name="A">false</value>
+                <value type="bool" name="B">false</value>
+                <value type="bool" name="G">true</value>
+                <value type="bool" name="R">false</value>
+            </node>
+            <node y="-52" type="ConstVector3" index="4" x="-649">
+                <value type="Vector3" name="Value">0.6800000071525574, 0.4699999988079071, 0.6399999856948853</value>
+            </node>
+            <node y="47" type="ConstVector3" index="5" x="-649">
+                <value type="Vector3" name="Value">0.25999999046325684, 0.33000001311302185, 0.5600000023841858</value>
+            </node>
+        </nodes>
+        <links>
+            <link receiver="0" in="1" sender="1" out="0"/>
+            <link receiver="3" in="1" sender="2" out="0"/>
+            <link receiver="1" in="3" sender="3" out="0"/>
+            <link receiver="1" in="1" sender="4" out="0"/>
+            <link receiver="1" in="2" sender="5" out="0"/>
+        </links>
+    </graph>
+    <user>
+        <type value="Surface"/>
+        <model value="Unlit"/>
+        <side value="false"/>
+        <wireframe value="false"/>
+        <depth write="true" test="true" comp="Less"/>
+    </user>
+</document>
