@@ -1,1 +1,1 @@
-# samples-2048
+# samples-flappy
